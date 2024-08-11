@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* social-media */
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+.social-button i {
+    margin: 0;
+}
+
+.hidden-social {
+    display: none !important;
+}
+
+.bg-two {
+    background-image: url('/public/img/background-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-three {
+    background-image: url('/public/img/background-3.png');
+    background-position: center;
+}
+
+.bg-four {
+    background-image: url('/public/img/background-4.png');
+    background-position: center;
+}
+
+.bg-five {
+    background-image: url('/public/img/background-5.png');
+    background-position: center;
+}
+
+.bg-six {
+    background-image: url('/public/img/background-6.png');
+    background-position: center;
+}
+
+.bg-eight {
+    background-image: url('/public/img/background-8.png');
+    background-position: center;
+}
+
+/* modal */
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* news */
+.group:hover .group-hover\:opacity-50 {
+    opacity: 0.5;
+}
+.group:hover .group-hover\:opacity-100 {
+    opacity: 1;
+}
