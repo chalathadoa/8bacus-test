@@ -8,13 +8,14 @@
 <b>To open the project:</b>
 <ul>
     <li>1. Clone this github repo at https://github.com/chalathadoa/8bacus-test.git</li>
-    <li>Ketik perintah di CMD: </li>
+    <li>Type commeand at CMD: </li>
     <li>2. composer install</li>
     <li>3. npm install</li>
     <li>4. npm run dev</li>
     <li>5. php artisan key:generate</li>
     <li>6. php artisan serve</li>
 </ul>
+<b>Link yg dibuka dari php artisan serve yg biasanya berada di port 8000</b>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
